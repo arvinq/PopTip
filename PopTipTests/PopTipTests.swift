@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ToolTipControl
+@testable import PopTip
 
 class PopTipTests: XCTestCase {
 
