@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showPopup(_ sender: UIView) {
-        
-//        let controller = PopTip()
-//        controller.showToolTip(onItem: sender)
-//        self.present(controller, animated: true)
+        // Another way to trigger the tooltip
+        let controller = PopTip()
+        controller.showToolTip(onItem: sender)
+        self.present(controller, animated: true)
         
     }
     
